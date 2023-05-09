@@ -1,0 +1,6 @@
+n=int(input("enter number"))
+list_of_elements=list(map(int,input().split()))[:n]
+s=max(list_of_elements)
+a=min(list_of_elements)
+print("maximum",s)
+print("minimun",a)
