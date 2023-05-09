@@ -1,0 +1,5 @@
+n=int(input("enter number:"))
+list_of_elements=list(map(int,input().split()))[:n]
+k=int(input("enter k:"))
+print("largest element is:",list_of_elements[n-k])
+print("smallest element is",list_of_elements[k-1])
