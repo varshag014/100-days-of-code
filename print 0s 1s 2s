@@ -1,0 +1,9 @@
+n=int(input("enter number:"))
+list_of_elements=list(map(int,input().split()))[:n]
+s=[]
+for i in range(n):
+    if(i<3):
+        s.append(list_of_elements[i])
+
+lst=sorted(s)
+print(lst)
