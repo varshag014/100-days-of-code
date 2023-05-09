@@ -1,0 +1,11 @@
+n=int(input("enter number:"))
+list_of_elements=list(map(int,input().split()))[:n]
+s=[]
+a=[]
+num=[]
+for i in range(n):
+    if(list_of_elements[i]<0):
+        s.append(list_of_elements[i])
+    else:
+        a.append(list_of_elements[i])
+print(a+s)
