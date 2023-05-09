@@ -1,0 +1,9 @@
+num1=int(input("enter the number"))
+list1=list(map(int,input().split()))[:num1]
+num2=int(input("enter the number"))
+list2=list(map(int,input().split()))[:num2]
+list_of_elements=(list1+list2)
+lst=sorted(list_of_elements)
+n=(len(lst)+1)//2
+print(lst[n-1])
+
