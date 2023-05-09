@@ -1,0 +1,4 @@
+n=int(input("enter the number:"))
+list_of_elements=list(map(int,input().split()))[:n]
+for i in range(n-1,-1,-1):
+    print(list_of_elements[i])
