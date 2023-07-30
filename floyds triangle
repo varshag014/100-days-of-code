@@ -1,0 +1,74 @@
+floyd's trtiangle
+
+
+n=int(input())
+val=1
+for i in range(1,n+1):
+    for j in range(1,i+1):
+        print(val,end=" ")
+        val+=1
+    print("")
+
+
+
+6
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
+16 17 18 19 20 21
+<---------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+Write a program to find the frequency of a user-given character in a string.
+
+
+
+mystr=input()
+
+for i in mystr:
+    val=mystr.count(i)
+    print(f'the frequency of {i} is {val}')
+
+
+
+caterpilar
+the frequency of c is 1
+the frequency of a is 2
+the frequency of t is 1
+the frequency of e is 1
+the frequency of r is 2
+the frequency of p is 1
+the frequency of i is 1
+the frequency of l is 1
+the frequency of a is 2
+
+
+<---------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+find all the roots of quadratic equation
+
+print("Equation: ax^2 + bx + c ")
+a=int(input("Enter a: "))
+b=int(input("Enter b: "))
+c=int(input("Enter c: "))
+d=b**2-4*a*c
+d1=d**0.5
+if(d<0):
+    print("The roots are imaginary. ")
+else:
+    r1=(-b+d1)/2*a
+    r2=(-b-d1)/2*a
+    print("The first root: ",round(r1,2))
+    print("The second root: ",round(r2,2))
+
+
+    Equation: ax^2 + bx + c
+Enter a: 3
+Enter b: 5
+Enter c: 2
+The first root:  -6.0
+The second root:  -9.0
+
+
+
