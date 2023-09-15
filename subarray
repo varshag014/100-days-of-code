@@ -1,0 +1,17 @@
+SUBARRAY 
+
+lst=list(map(int,input().split()))
+l=[]
+
+res=[]
+for i in range(0,len(lst)):
+    for j in range(i):
+      l.append(lst[j:i])
+for i in l:
+    sumval = sum(i)
+    res.append(sumval)
+print(min(res))
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
